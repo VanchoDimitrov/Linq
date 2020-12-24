@@ -36,6 +36,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15.LINQ-Set-operators", "15
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16.Partitioning-operators", "16.Partitioning-operators\16.Partitioning-operators.csproj", "{91C5568D-883F-49FE-97CD-6A7E6C85CD6E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18.LINQ-Linq-query-Method-query", "18.LINQ-Linq-query-Method-query\18.LINQ-Linq-query-Method-query.csproj", "{EE12FAEE-F108-43C8-AE06-337FA4B34C0E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -250,6 +252,18 @@ Global
 		{91C5568D-883F-49FE-97CD-6A7E6C85CD6E}.Release|x64.Build.0 = Release|Any CPU
 		{91C5568D-883F-49FE-97CD-6A7E6C85CD6E}.Release|x86.ActiveCfg = Release|Any CPU
 		{91C5568D-883F-49FE-97CD-6A7E6C85CD6E}.Release|x86.Build.0 = Release|Any CPU
+		{EE12FAEE-F108-43C8-AE06-337FA4B34C0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE12FAEE-F108-43C8-AE06-337FA4B34C0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE12FAEE-F108-43C8-AE06-337FA4B34C0E}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{EE12FAEE-F108-43C8-AE06-337FA4B34C0E}.Debug|x64.Build.0 = Debug|Any CPU
+		{EE12FAEE-F108-43C8-AE06-337FA4B34C0E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{EE12FAEE-F108-43C8-AE06-337FA4B34C0E}.Debug|x86.Build.0 = Debug|Any CPU
+		{EE12FAEE-F108-43C8-AE06-337FA4B34C0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE12FAEE-F108-43C8-AE06-337FA4B34C0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE12FAEE-F108-43C8-AE06-337FA4B34C0E}.Release|x64.ActiveCfg = Release|Any CPU
+		{EE12FAEE-F108-43C8-AE06-337FA4B34C0E}.Release|x64.Build.0 = Release|Any CPU
+		{EE12FAEE-F108-43C8-AE06-337FA4B34C0E}.Release|x86.ActiveCfg = Release|Any CPU
+		{EE12FAEE-F108-43C8-AE06-337FA4B34C0E}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
