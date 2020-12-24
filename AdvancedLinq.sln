@@ -2,8 +2,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17.Lambda-expressions", "17.Lambda-expressions\17.Lambda-expressions.csproj", "{EB828476-AB01-43ED-A8DD-B076F248FF83}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.Introduction-to-linq-queries", "03.Introduction-to-linq-queries\03.Introduction-to-linq-queries.csproj", "{A7E64BDD-B0D8-4261-947D-A2A6C3C66696}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.Aggregate-functions", "04.Aggregate-functions\04.Aggregate-functions.csproj", "{D542E931-C3EF-452B-A9AB-8C42FB5CD0A7}"
@@ -36,7 +34,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15.LINQ-Set-operators", "15
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16.Partitioning-operators", "16.Partitioning-operators\16.Partitioning-operators.csproj", "{91C5568D-883F-49FE-97CD-6A7E6C85CD6E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18.LINQ-Linq-query-Method-query", "18.LINQ-Linq-query-Method-query\18.LINQ-Linq-query-Method-query.csproj", "{EE12FAEE-F108-43C8-AE06-337FA4B34C0E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18.LINQ-Linq-query-Method-query", "17.LINQ-Linq-query-Method-query\18.LINQ-Linq-query-Method-query.csproj", "{EE12FAEE-F108-43C8-AE06-337FA4B34C0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18.1.Lambda-expressions", "18.Lambda-expressions\18.1.Lambda-expressions.csproj", "{EB828476-AB01-43ED-A8DD-B076F248FF83}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -48,18 +48,6 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{EB828476-AB01-43ED-A8DD-B076F248FF83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EB828476-AB01-43ED-A8DD-B076F248FF83}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EB828476-AB01-43ED-A8DD-B076F248FF83}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{EB828476-AB01-43ED-A8DD-B076F248FF83}.Debug|x64.Build.0 = Debug|Any CPU
-		{EB828476-AB01-43ED-A8DD-B076F248FF83}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{EB828476-AB01-43ED-A8DD-B076F248FF83}.Debug|x86.Build.0 = Debug|Any CPU
-		{EB828476-AB01-43ED-A8DD-B076F248FF83}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EB828476-AB01-43ED-A8DD-B076F248FF83}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EB828476-AB01-43ED-A8DD-B076F248FF83}.Release|x64.ActiveCfg = Release|Any CPU
-		{EB828476-AB01-43ED-A8DD-B076F248FF83}.Release|x64.Build.0 = Release|Any CPU
-		{EB828476-AB01-43ED-A8DD-B076F248FF83}.Release|x86.ActiveCfg = Release|Any CPU
-		{EB828476-AB01-43ED-A8DD-B076F248FF83}.Release|x86.Build.0 = Release|Any CPU
 		{A7E64BDD-B0D8-4261-947D-A2A6C3C66696}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A7E64BDD-B0D8-4261-947D-A2A6C3C66696}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A7E64BDD-B0D8-4261-947D-A2A6C3C66696}.Debug|x64.ActiveCfg = Debug|Any CPU
@@ -264,6 +252,18 @@ Global
 		{EE12FAEE-F108-43C8-AE06-337FA4B34C0E}.Release|x64.Build.0 = Release|Any CPU
 		{EE12FAEE-F108-43C8-AE06-337FA4B34C0E}.Release|x86.ActiveCfg = Release|Any CPU
 		{EE12FAEE-F108-43C8-AE06-337FA4B34C0E}.Release|x86.Build.0 = Release|Any CPU
+		{EB828476-AB01-43ED-A8DD-B076F248FF83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB828476-AB01-43ED-A8DD-B076F248FF83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB828476-AB01-43ED-A8DD-B076F248FF83}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{EB828476-AB01-43ED-A8DD-B076F248FF83}.Debug|x64.Build.0 = Debug|Any CPU
+		{EB828476-AB01-43ED-A8DD-B076F248FF83}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{EB828476-AB01-43ED-A8DD-B076F248FF83}.Debug|x86.Build.0 = Debug|Any CPU
+		{EB828476-AB01-43ED-A8DD-B076F248FF83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB828476-AB01-43ED-A8DD-B076F248FF83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB828476-AB01-43ED-A8DD-B076F248FF83}.Release|x64.ActiveCfg = Release|Any CPU
+		{EB828476-AB01-43ED-A8DD-B076F248FF83}.Release|x64.Build.0 = Release|Any CPU
+		{EB828476-AB01-43ED-A8DD-B076F248FF83}.Release|x86.ActiveCfg = Release|Any CPU
+		{EB828476-AB01-43ED-A8DD-B076F248FF83}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
